@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EOS_Copilot</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>EOS Copilot</h1>
+            <button id="test_trigger">Send Ping</button>
+            <img src="../static/resources/images/Electronic_Theatre_Controls_Logo.png" alt="Logo from ETC">
+        </div>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li href="Channels">Channels</li>
+            <li href="Presets">Presets</li>
+            <li href="CP">Color Palettes</li>
+            <li href="groups">Groups</li>
+            <li href="patch">Patch</li>
+            <li href="settings">Settings</li>
+            <li href="osc_viewer">OSC Viewer</li>
+        </ul>
+    </nav>
+    <section id ="channels">
+            <h2>Channels</h2>
+            <ul>
+                <li>Channel Count</li>
+                <li id="patch_count">0</li>
+                <li>Preset Count</li>
+                <li id="preset_count">0</li>
+                <li>CP Count</li>
+                <li id="cp_count">0</li>
+                <li>Group Count</li>
+                <li id="group_count">0</li>
+            </ul>
+            <ul id="channels_in_use"></ul>
+    </section>
+    <section id="presets">
+        <h2>Presets</h2>
+    </section>
+    <section id="CP">
+        <h2>Color Palettes</h2>
+    </section>
+    <section id="groups">
+        <h2>Groups</h2>
+    </section>
+    <section id="patch">
+        <h2>Patch</h2>
+    </section>
+    <section id="settings">
+        <h2>Settings</h2>
+    </section>
+
+    <script src="../static/osc_test.js"></script>
+</body>
+</html>
